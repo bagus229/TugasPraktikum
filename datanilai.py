@@ -4,13 +4,13 @@ def tampilkan_data():
     print("\nDaftar Nilai")
     print("="*66)
     print("|No  | NIM      | Nama       | Tugas  | UTS    | UAS    | Akhir|")
-    print("="*80)
+    print("="*70)
     if data_mahasiswa:
         for i, (nim, data) in enumerate(data_mahasiswa.items(), start=1):
             print(f"{i:<4}| {nim:<8} | {data['nama']:<10} | {data['tugas']:<6} | {data['uts']:<6} | {data['uas']:<6} | {data['akhir']:<5.2f}")
     else:
         print("Tidak Ada Data")
-    print("="*80)
+    print("="*70)
 
 def tambah_data():
     nim = input("NIM: ")
