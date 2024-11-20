@@ -10,12 +10,12 @@ def lihat_data():
         print("="*60)
     else:
         print("\nDaftar Nilai")
-        print("="*60)
+        print("="*72)
         print("|NO |   NIM   |    NAMA    | TUGAS |  UTS  |  UAS  | AKHIR |")
-        print("="*60)
+        print("="*72)
         for i, data in enumerate(data_mahasiswa, start=1):
             print(f"{i:<3}| {data['nim']:<7} | {data['nama']:<10} | {data['tugas']:<5} | {data['uts']:<5} | {data['uas']:<5} | {data['akhir']:<5.2f} |")
-        print("="*60)
+        print("="*72)
 
 def tambah_data():
     print("\nTambah Data")
