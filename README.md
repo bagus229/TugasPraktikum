@@ -42,3 +42,43 @@ Perulangan while, Fungsinya untuk perulangan data sampai user berhenti menggunak
 ![Gambar 1](screenshot/coy9.png)
 
 ## Flowchart data nilai mahasiswa
+
+### Langkah 1
+Memulai dengan start:
+![Gambar 1](screenshot/coy11.png)
+
+### Langkah 2
+Menampilkan opsi pilih menu:(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar:
+![Gambar 1](screenshot/coy12.png)
+
+### Langkah 3
+Pengunaan Decision bagi penguna untuk memilih opsi pilih menuyang diinginkan:
+![Gambar 1](screenshot/coy13.png)
+
+### Langkah 4
+Jika pengguna memilih tambah_data, input data berupa NIM,Nama,Nilai Tugas,UTS,UAS. setelah data diinput kemudian data akan disimpan oleh progrsm:
+![Gambar 1](screenshot/coy14.png)
+
+### Langkah 5
+Pengguna memilih lihat_data, program akan menampilkan data yang telah ditambahkan. Jika tidak ada data menampilkan "Tidak Ada Data" dan jika ada data akan ditampilkan:
+![Gambar 1](screenshot/coy15.png)
+
+### Langkah 6
+Jika memilih ubah_data, program akan meminta pengguna untuk mamilih data yang akan diubah. setelah diubah data akan diperbarui:
+![Gambar 1](screenshot/coy16.png)
+
+### Langkah 7
+Jika memilih hapus_data, program meminta pengguna memilih data yang akan dihapus. setelah dihapups perubahan disimpan oleh sistem:
+![Gambar 1](screenshot/coy17.png)
+
+### Langkah 8
+Jika pilih cari_data, pengguna meminta program untuk mencari data berdasarkan NIM dan Nama lalu tampilkan:
+![Gambar 1](screenshot/coy18.png)
+
+### Langkah 9
+Program akan menampilkan Output nilai akhir data mahasiswa. jika pengguna memilih "(K)eluaar" maka program selesai:
+![Gambar 1](screenshot/coy19.png)
+
+### Langkah 10
+Program berakhir:
+![Gambar 1](screenshot/coy20.png)
